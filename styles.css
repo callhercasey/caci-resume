@@ -1,0 +1,46 @@
+h1 {color: orange;}
+#indeedLogo {width: 32px; height: 32px;}
+.company {color: limegreen;}
+.school {color: limegreen;}
+#me {width: 200px ; height: 200px;}
+
+* {
+    font-family: 'Arial';
+    font-weight: 400;
+  }
+
+  body{
+      width: 90%;
+      float: right;
+      padding: 30px;
+      margin: 0;
+      background: white
+  }
+
+ .experienceHeader {
+      border-top: 1px solid #000
+}
+  
+.educationHeader {
+    border-top: 1px solid #000;
+}
+
+.skillsHeader {
+    border-top: 1px solid #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 111px;
+}
+
+p{
+    padding: 30px;
+}
+
+h5 {
+    color: gray;
+}
