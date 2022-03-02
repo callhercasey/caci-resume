@@ -44,3 +44,8 @@ p{
 h5 {
     color: gray;
 }
+
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg)
+  }

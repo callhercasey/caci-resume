@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <img src="./images/me.jpeg" id= "me" alt="me">
     <title>Caci Harrison</title>
 </head>
 <body> 
+   <div>
     <h1>Caci Harrison</h1>
     <p> Friendly and professional customer service specialist with extensive experience resolving escalated customer complaints and issues. Strong interpersonal skills proven through customer satisfaction and peer recognition awards. Goal orientated, determined and ambitious. Dedicated, hard worker, highly motivated. Seeking a career change to a position involving computer coding, willing to learn new things.</p>
     <ul>
@@ -16,7 +18,7 @@
         <li>Champion of the Month</li>
         <li>Champion of Care</li>
     </ul>
-    <div>
+    </div>
         <img src ="./images/indeedLogo.png" id= "indeedLogo" alt="indeedLogo">
         <h4><i class="fas">📍</i>Detroit, MI</h4>
         <a href="mailto:Kc9279@yahoo.com">✉️ Kc9279@yahoo.com</a>
@@ -77,5 +79,20 @@
         <li>JavaScript</li>
         <li>Html/CSS</li>
     </ul>
+
+    <script>
+
+        document.onkeypress = function (e) {
+            e = e || window.event;
+
+            if(e.keyCode ===13) {
+                document.documentElement.classList.toggle('dark-mode');
+
+                document.querySelectorAll('.inverted').forEach((result) => {
+                    result.classList.toggle('invert');
+                })
+            }
+         }
+    </script>
 </body>
 </html>
