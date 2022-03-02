@@ -49,3 +49,7 @@ h5 {
 .dark-mode {
     filter: invert(1) hue-rotate(180deg)
   }
+
+.invert {
+filter: invert(1) hue-rotate(180deg)
+}
